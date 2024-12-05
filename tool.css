@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.logo {
+  display: flex;
+  justify-items: center;
+  padding: 10px;
+  background: #ffffff;
+  color: #ffffff;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+#toolbar {
+  background: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+#toolbar .ql-formats {
+  margin-right: 10px;
+}
+
+#editor {
+  height: 400px;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f0f0f0;
+  font-size: 14px;
+  color: #666;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+i {
+  color: #000000;
+}
+
+
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>EditorX - Tool</title>
+
+  <!-- Quill CSS -->
+  <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/css/mq.css">
+  <link rel="stylesheet" href="./tool.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div>
+      <div class="back">
+        <a href="./index.html" title="Voltar"><i class="fa-solid fa-arrow-left"></i></a>
+      </div>
+    </div>
+    <div class="logo">
+            <a href="./index.html">
+              <img src="./assets/images/logo-tr.png" alt="Logo do Editor">
+            </a>
+      </div>
+
+      <div id="toolbar">
+        <span class="ql-formats">
+          <button class="ql-bold" title="Negrito"><i class="fas fa-bold"></i></button>
+          <button class="ql-italic" title="Itálico"><i class="fas fa-italic"></i></button>
+          <button class="ql-underline" title="Sublinhado"><i class="fas fa-underline"></i></button>
+          <button class="ql-strike" title="Riscado"><i class="fas fa-strikethrough"></i></button>
+        </span>
+        <span class="ql-formats">
+          <select class="ql-font" title="Fonte">
+            <option selected>Sans-serif</option>
+            <option value="serif">Serif</option>
+            <option value="monospace">Monospace</option>
+          </select>
+          <select class="ql-size" title="Tamanho da Fonte">
+            <option value="small">Pequeno</option>
+            <option selected>Normal</option>
+            <option value="large">Grande</option>
+            <option value="huge">Enorme</option>
+          </select>
+        </span>
+        <span class="ql-formats">
+          <select class="ql-color" title="Cor do Texto"></select>
+          <select class="ql-background" title="Cor de Fundo"></select>
+        </span>
+        <span class="ql-formats">
+          <button class="ql-list" value="ordered" title="Lista Ordenada"><i class="fas fa-list-ol"></i></button>
+          <button class="ql-list" value="bullet" title="Lista Não Ordenada"><i class="fas fa-list-ul"></i></button>
+        </span>
+        <span class="ql-formats">
+          <button class="ql-align" value="" title="Alinhar à Esquerda"><i class="fas fa-align-left"></i></button>
+          <button class="ql-align" value="center" title="Centralizar"><i class="fas fa-align-center"></i></button>
+          <button class="ql-align" value="right" title="Alinhar à Direita"><i class="fas fa-align-right"></i></button>
+          <button class="ql-align" value="justify" title="Justificar"><i class="fas fa-align-justify"></i></button>
+        </span>
+        <span class="ql-formats">
+          <button class="ql-link" title="Inserir Link"><i class="fas fa-link"></i></button>
+          <button class="ql-image" title="Inserir Imagem"><i class="fas fa-image"></i></button>
+          <button class="ql-video" title="Inserir Vídeo"><i class="fas fa-video"></i></button>
+        </span>
+        <span class="ql-formats">
+          <button class="ql-clean" title="Limpar Formatação"><i class="fas fa-eraser"></i></button>
+        </span>
+      </div>
+
+      <div id="editor"></div>
+
+      <div class="footer">
+        <p>&copy; 2024 Todos os direitos reservados</p>
+        <div class="social-icons">
+          <a href="https://github.com/AleRzendee" title="Github">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://instagram.com/rzendeee" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quill JS -->
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="./assets/scripts/script.js"></script>
+
+</body>
+
+</html>

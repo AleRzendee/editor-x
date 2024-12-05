@@ -1,0 +1,11 @@
+{
+  "name": "richtextproject",
+  "version": "1.0.0",
+  "description": "EditorX a rich-text editor",
+  "main": "script.js",
+  "scripts": {
+    "test": "scripts/scripts.js"
+  },
+  "author": "Gustavo Rezende",
+  "license": "ISC"
+}

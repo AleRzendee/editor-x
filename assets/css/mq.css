@@ -1,0 +1,20 @@
+@media (max-width: 480px) {
+    #toolbar .ql-formats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    #editor {
+      height: 250px;
+    }
+  
+    .footer {
+      padding: 8px;
+      font-size: 11px;
+    }
+  }
