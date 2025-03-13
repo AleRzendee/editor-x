@@ -40,4 +40,4 @@ O **Editor X** é um editor de texto rico minimalista e profissional, projetado 
 
 Para dúvidas ou sugestões, entre em contato
 <br>
-<a href="https://wa.me/5512988848421">WhatsApp</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/gustavo-rezende-5a838133b/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.instagram.com/rzendeee">Instagram</a>
+<a href="https://wa.me/5512988848421">WhatsApp</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/gustavorezendeee">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.instagram.com/rzendeee">Instagram</a>
