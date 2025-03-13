@@ -20,7 +20,6 @@ O **Editor X** é um editor de texto rico minimalista e profissional, projetado 
 
 - **HTML5** e **CSS3**: para a estrutura e estilização.
 - **JavaScript**: para funcionalidade do editor.
-- **React.js** *(opcional, se aplicável)*: para renderizar a interface de forma dinâmica.
 - **Design Responsivo**: garantindo compatibilidade em diferentes dispositivos.
 
 ---
